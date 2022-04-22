@@ -3,6 +3,7 @@
 
 #include "Pproduct.h"
 #include "Fibonacci.h"
+#include "Absolute.h"
 
 int main(int argc, char *argv[])
 {
@@ -27,7 +28,12 @@ int main(int argc, char *argv[])
      *
      */
 
+    /* Code of exercise02
     auto fic = FibonacciConst(10);
     std::cout<<"Fibonacci of 10 is : "<<fic<<std::endl;
+    */
+
+    auto fi = Absolute<-50>::Result;
+    std::cout<<"Absolute Value of -50 : "<<fi<<std::endl;
 }
 

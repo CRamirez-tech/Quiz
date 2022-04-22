@@ -18,5 +18,6 @@ add_executable(Quiz
   main.cpp
   Pproduct.h
   Fibonacci.h
+  Absolute.h
 )
 target_link_libraries(Quiz Qt${QT_VERSION_MAJOR}::Core)

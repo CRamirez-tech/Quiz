@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+#include "Pproduct.h"
+
 int main(int argc, char *argv[])
 {
     int tam;
@@ -18,5 +20,6 @@ int main(int argc, char *argv[])
     {
         *it  = (std::rand() % 1000 + 1)/10.0;
     }
+    double product = test(my_vector,my_vector2);
 }
 

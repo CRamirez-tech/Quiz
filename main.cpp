@@ -2,9 +2,12 @@
 #include <vector>
 
 #include "Pproduct.h"
+#include "Fibonacci.h"
 
 int main(int argc, char *argv[])
 {
+    /* Code of exercise01
+     *
     int tam;
     std::cout<<"Ingrese componentes a agregar: ";
     std::cin>>tam;
@@ -21,5 +24,10 @@ int main(int argc, char *argv[])
         *it  = (std::rand() % 1000 + 1)/10.0;
     }
     double product = test(my_vector,my_vector2);
+     *
+     */
+
+    auto fic = FibonacciConst(10);
+    std::cout<<"Fibonacci of 10 is : "<<fic<<std::endl;
 }
 
